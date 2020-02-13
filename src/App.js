@@ -1,11 +1,15 @@
 import React from 'react';
+
 import Homepage from './pages/Homepage/Homepage';
+import DataContextProvider from './contexts/DataContext';
 
 function App() {
   return (
-    <div>
-      <Homepage />
-    </div>
+    <DataContextProvider>
+      <div>
+        <Homepage />
+      </div>
+    </DataContextProvider>
   );
 }
 
