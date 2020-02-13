@@ -10,6 +10,9 @@ const About = () => {
       <div className='about-description'>
         <h3 className='about-title'>We Host A Cocktail Club</h3>
         <p className='about-description'>
+          Join us every Tuesday for club night{' '}
+        </p>
+        <p className='about-description'>
           Your find out about our Cocktail Club{' '}
         </p>
         <button>Learn More</button>

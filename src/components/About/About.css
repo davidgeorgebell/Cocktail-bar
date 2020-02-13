@@ -1,6 +1,15 @@
 .about-wrapper {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 600px 1fr;
   align-items: center;
   grid-gap: 20px;
+}
+.about-title {
+  font-weight: 300;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.about-description {
+  font-size: 1em;
+  margin-bottom: 10px;
 }

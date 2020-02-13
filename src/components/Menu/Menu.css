@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 10px;
-
   margin: 20px 0;
 }
 
@@ -21,4 +20,9 @@
 .menu-list-item {
   background: var(--secondary);
   padding: 10px;
+}
+@media (max-width: 1000px) {
+  .menu-list {
+    order: -1;
+  }
 }
