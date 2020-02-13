@@ -10,12 +10,12 @@ const Hero = () => {
         <p>Drink with Zest</p>
       </header>
       <div className='notice notice1'>
-        <p className='price'>Women Drink Free</p>
-        <p className='hero-notice-title'>Ladies Night (every Wednesday)</p>
+        <p className='price'>Ladies Night</p>
+        <p className='hero-notice-title'>Every Wednesday</p>
       </div>
       <div className='notice notice2'>
-        <p className='price'>2 for 1</p>
-        <p className='hero-notice-title'>Happy Hour</p>
+        <p className='price'>Happy Hour</p>
+        <p className='hero-notice-title'>Daily 6pm - 7pm</p>
       </div>
     </div>
   );

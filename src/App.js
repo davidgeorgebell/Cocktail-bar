@@ -16,7 +16,7 @@ function App() {
   return (
     <DataContextProvider>
       <Router>
-        <div>
+        <div className='app-wrapper'>
           <main>
             <Switch>
               <Route path='/' exact>

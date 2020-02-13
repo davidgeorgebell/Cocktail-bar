@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--primary);
 }
 
 p,
@@ -30,14 +31,9 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--secondary);
   font-weight: normal;
 }
-p,
-a,
-li {
-  color: var(--secondary);
-}
+
 h1 {
   font-size: 1.6em;
 }
@@ -51,7 +47,8 @@ h4 {
   font-size: 1em;
 }
 main {
-  padding: 0 auto;
+  padding: 10px;
   margin: 2em 2em;
   overflow: hidden;
+  min-height: 100vh;
 }

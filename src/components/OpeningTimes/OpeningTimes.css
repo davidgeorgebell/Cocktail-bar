@@ -1,0 +1,9 @@
+.opening-times-wrapper {
+  background: black;
+  color: var(--primary);
+  text-align: center;
+  padding: 20px;
+}
+.open-time {
+  padding: 7px 0;
+}

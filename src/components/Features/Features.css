@@ -1,0 +1,20 @@
+.features-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.feature-item {
+  border-radius: 14px;
+  text-align: center;
+
+  color: var(--secondary);
+  padding: 20px;
+}
+.feature-title {
+  margin: 20px;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+.feature-item p {
+  margin: 20px;
+}
