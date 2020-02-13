@@ -1,6 +1,6 @@
 :root {
   --primary: #ffe293;
-  --secondary: #2f2f2f;
+  --secondary: #282828;
 }
 body {
   margin: 0;
@@ -22,4 +22,36 @@ li {
 }
 li {
   list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--secondary);
+  font-weight: normal;
+}
+p,
+a,
+li {
+  color: var(--secondary);
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1em;
+}
+main {
+  padding: 0 auto;
+  margin: 2em 2em;
+  overflow: hidden;
 }

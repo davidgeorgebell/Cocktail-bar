@@ -3,6 +3,7 @@ import React, { createContext, useState, useEffect } from 'react';
 export const DataContext = createContext();
 
 const DataContextProvider = (props) => {
+  const [isLoading, setLoading] = useState(false);
   const [cocktails, setCocktails] = useState([]);
 
   const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/';
@@ -19,10 +20,13 @@ const DataContextProvider = (props) => {
   };
 
   useEffect(() => {
+    setLoading(true);
     fetchCocktailList().then((data) => setCocktails(data));
+    setLoading(false);
   }, []);
+
   return (
-    <DataContext.Provider value={{ cocktails }}>
+    <DataContext.Provider value={{ cocktails, isLoading }}>
       {props.children}
     </DataContext.Provider>
   );

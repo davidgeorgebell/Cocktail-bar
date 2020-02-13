@@ -7,7 +7,9 @@ function App() {
   return (
     <DataContextProvider>
       <div>
-        <Homepage />
+        <main>
+          <Homepage />
+        </main>
       </div>
     </DataContextProvider>
   );
