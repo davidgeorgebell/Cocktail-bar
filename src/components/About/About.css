@@ -13,3 +13,8 @@
   font-size: 1em;
   margin-bottom: 10px;
 }
+@media (max-width: 860px) {
+  .about-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

@@ -10,12 +10,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
-  letter-spacing: -1px;
 }
 body {
   margin: 0;
   padding: 0;
   background: var(--primary);
+  letter-spacing: -1px;
 }
 
 p,
@@ -53,7 +53,9 @@ h4 {
   font-size: 1em;
 }
 main {
-  padding: 10px;
-  margin: 2em 2em;
-  min-height: 100vh;
+  padding: 0 auto;
+  margin: 10px auto;
+  min-height: 90vh;
+  max-width: 90vw;
+  overflow: hidden;
 }

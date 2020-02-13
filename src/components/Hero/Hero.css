@@ -41,14 +41,14 @@
   font-weight: 300;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   .hero-wrapper {
     grid-template-areas:
       'hero-title hero-title'
       'notice1 notice2';
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   .hero-wrapper {
     grid-template-areas:
       'hero-title'
