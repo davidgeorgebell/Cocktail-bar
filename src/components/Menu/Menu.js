@@ -6,7 +6,12 @@ import './Menu.css';
 const Menu = () => {
   return (
     <div className='menu-wrapper'>
-      <button className='menu-button'>Menu</button>
+      <button
+        aria-expanded='false'
+        aria-controls='menu-list'
+        className='menu-button'>
+        Menu
+      </button>
       <ul className='menu-list'>
         <Link to='/drink'>
           <li className='menu-list-item'>Drink</li>
