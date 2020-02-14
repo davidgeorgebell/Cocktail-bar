@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage/HomePage';
 import DrinkPage from './pages/DrinkPage/DrinkPage';
 import FoodPage from './pages/FoodPage/FoodPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import Menu from './components/Menu/Menu';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Router>
         <div className='app-wrapper'>
           <main>
+            <Menu />
             <Switch>
               <Route path='/' exact>
                 <HomePage />

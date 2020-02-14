@@ -6,13 +6,10 @@ import './Menu.css';
 const Menu = () => {
   return (
     <div className='menu-wrapper'>
-      <button
-        aria-expanded='false'
-        aria-controls='menu-list'
-        className='menu-button'>
-        Menu
-      </button>
       <ul className='menu-list'>
+        <Link to='/'>
+          <li className='menu-list-item menu-list-logo'>Gatsby's</li>
+        </Link>
         <Link to='/drink'>
           <li className='menu-list-item'>Drink</li>
         </Link>
