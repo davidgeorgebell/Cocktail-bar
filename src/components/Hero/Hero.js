@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero-wrapper'>
       <header className='hero-title'>
         <h3>Gatsby's</h3>
-        <p>London's Cocktail Lounge.</p>
+        <p>London's Cocktail Lounge</p>
       </header>
       <div className='notice notice1'>
         <p className='price'>Ladies Night</p>

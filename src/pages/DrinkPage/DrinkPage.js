@@ -1,11 +1,12 @@
 import React from 'react';
 
 import './DrinkPage.css';
+import DrinkList from '../../components/DrinkList/DrinkList';
 
 const DrinkPage = () => {
   return (
     <div>
-      <h1>Drink Page</h1>
+      <DrinkList />
     </div>
   );
 };
