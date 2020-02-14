@@ -1,6 +1,7 @@
 :root {
   --primary: #ffe293;
   --secondary: black;
+  --tertiary: #1c1c1b;
 }
 html {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;

@@ -8,11 +8,21 @@
   font-weight: 300;
   font-size: 2em;
   margin-bottom: 10px;
+  color: var(--tertiary);
 }
 .about-description {
   font-size: 1em;
   margin-bottom: 10px;
+  color: var(--tertiary);
 }
+.about-description a {
+  color: var(--tertiary);
+  text-decoration: underline;
+}
+.about-description a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 860px) {
   .about-wrapper {
     grid-template-columns: 1fr;

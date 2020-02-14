@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Features.css';
 
@@ -12,6 +13,7 @@ const Features = () => {
           loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
           loren ipsum dipsum doo day logic
         </p>
+        <Link to='/drink'>View Our Drinks Menu</Link>
       </div>
       <div className='feature-item'>
         <h3 className='feature-title'>Food</h3>
@@ -20,6 +22,7 @@ const Features = () => {
           loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
           loren ipsum dipsum doo day logic
         </p>
+        <Link to='/food'>View Our Food Menu</Link>
       </div>
       {/* <div className='feature-item'>
         <h3 className='feature-title'>Music</h3>

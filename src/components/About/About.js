@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './About.css';
 import cocktail from '../../images/cocktail-2.jpg';
@@ -15,7 +16,7 @@ const About = () => {
         <p className='about-description'>
           Your find out about our Cocktail Club{' '}
         </p>
-        <button>Learn More</button>
+        <Link to='/about'>More About Us</Link>
       </div>
     </div>
   );

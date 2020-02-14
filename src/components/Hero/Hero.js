@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div className='hero-wrapper'>
       <header className='hero-title'>
+        <h3>Gatsby's</h3>
         <p>London's Cocktail Lounge.</p>
       </header>
       <div className='notice notice1'>
