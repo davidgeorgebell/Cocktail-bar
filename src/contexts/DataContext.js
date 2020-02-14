@@ -9,15 +9,12 @@ const DataContextProvider = (props) => {
   useEffect(() => {
     const fetchCocktailList = async () => {
       const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1/';
-
       setLoading(true);
-
       try {
-        const res = await fetch(`${baseUrl}filter.php?c=Cocktail`);
+        const res = await fetch(`${baseUrl}search.php?s=margarita`);
         const data = await res.json();
         console.log(data);
-
-        setCocktails(data);
+        setCocktails(data.drinks);
         setLoading(false);
       } catch (err) {
         console.log('Error fetching data');

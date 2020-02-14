@@ -8,7 +8,7 @@
 .hero-title {
   grid-area: hero-title;
   min-height: 300px;
-  background: white url(../../images/cocktail.jpg);
+  background: var(--primary) url(../../images/cocktail.jpg);
   background-size: cover;
   background-position: bottom right;
   padding: 25px;
