@@ -6,15 +6,16 @@
 .feature-item {
   border-radius: 14px;
   text-align: center;
-
   color: var(--secondary);
-  padding: 20px;
+
+  /* border-radius: 50px;
+  background: #ffe293;
+  box-shadow: -10px -10px 20px #e0c781, 10px 10px 20px #fffda5; */
 }
 .feature-title {
-  margin: 20px;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.7em;
 }
-.feature-item p {
-  margin: 20px;
+.feature-item h3 {
+  margin-bottom: 10.5px;
 }

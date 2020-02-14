@@ -10,8 +10,8 @@ import OpeningTimes from '../../components/OpeningTimes/OpeningTimes';
 const HomePage = () => {
   return (
     <div className='homepage-wrapper'>
-      <Hero />
       <Menu />
+      <Hero />
       <Features />
       <About />
       <OpeningTimes />

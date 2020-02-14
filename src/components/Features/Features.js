@@ -21,7 +21,7 @@ const Features = () => {
           loren ipsum dipsum doo day logic
         </p>
       </div>
-      <div className='feature-item'>
+      {/* <div className='feature-item'>
         <h3 className='feature-title'>Music</h3>
         <p>
           loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
@@ -35,7 +35,7 @@ const Features = () => {
           loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
           loren ipsum dipsum doo day logic
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
