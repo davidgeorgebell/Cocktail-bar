@@ -7,20 +7,21 @@ const DataContextProvider = (props) => {
   const [drinks, setDrinks] = useState([]);
   const [errorMessage, setErrorMessage] = useState(''); // holds an error message in case the network request doesn't succeed
   const [drinkNames] = useState([
-    'margarita',
-    'martini',
-    'negroni',
-    'old-fashioned',
-    'daiquiri'
+    '11007',
+    '11005',
+    '12089',
+    '11003',
+    '11006',
+    '14167'
   ]); // the search queries for the `s` parameter at your API endpoint
 
   useEffect(() => {
     const fetchDrinkLists = async (...drinkNames) => {
       const fetchCocktailList = async (drinkName) => {
         const baseUrl =
-          'https://www.thecocktaildb.com/api/json/v1/1/search.php';
+          'https://www.thecocktaildb.com/api/json/v1/1/lookup.php';
         const url = new URL(baseUrl);
-        const params = new URLSearchParams({ s: drinkName });
+        const params = new URLSearchParams({ i: drinkName });
         url.search = params.toString(); // -> '?s=cocktailName'
         const res = await fetch(url.href); // -> 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=cocktailName'
         const data = await res.json();
