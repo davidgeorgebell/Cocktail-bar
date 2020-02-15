@@ -12,7 +12,9 @@ const DataContextProvider = (props) => {
     '12089',
     '11003',
     '11006',
-    '14167'
+    '14167',
+    '11009',
+    '178308'
   ]); // the search queries for the `s` parameter at your API endpoint
 
   useEffect(() => {
