@@ -1,0 +1,14 @@
+.drink-item-wrapper {
+  color: var(--primary);
+  padding: 20px;
+}
+.drink-item-name {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.drink-item-details {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
