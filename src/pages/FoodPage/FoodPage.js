@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import './FoodPage.css';
+import FoodList from '../../components/FoodList/FoodList';
+import { DataContext } from '../../contexts/DataContext';
 
 const FoodPage = () => {
+  const { isLoading, errorMessage } = useContext(DataContext);
   return (
-    <div>
-      <h1>Food Page</h1>
+    <div className='drink-page-wrapper'>
+      {isLoading ? (
+        <h1>Loading...</h1>
+      ) : errorMessage ? (
+        <h1>Error...</h1>
+      ) : (
+        <FoodList />
+      )}
     </div>
   );
 };
