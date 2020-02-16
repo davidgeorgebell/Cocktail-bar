@@ -1,27 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './Menu.css';
 
 const Menu = () => {
   return (
     <div className='menu-wrapper'>
-      <ul className='menu-list'>
-        <Link to='/'>
-          <li className='menu-list-item menu-list-logo'>Gatsby's</li>
-        </Link>
-        <Link to='/drink'>
-          <li className='menu-list-item'>Drink</li>
-        </Link>
-        <Link to='/food'>
-          {' '}
-          <li className='menu-list-item'>Food</li>
-        </Link>
-        <Link to='contact'>
-          {' '}
-          <li className='menu-list-item'>Contact</li>
-        </Link>
-      </ul>
+      <nav className='menu-nav'>
+        <ul className='menu-list'>
+          <li className='menu-list-logo menu-list-item'>
+            {' '}
+            <NavLink to='/' exact activeClassName='selected'>
+              Gatsby's
+            </NavLink>
+          </li>
+
+          <li className=' menu-list-item'>
+            <NavLink to='/drink' className='active' activeClassName='selected'>
+              Drink
+            </NavLink>
+          </li>
+          <NavLink to='/food' className='active' activeClassName='selected'>
+            {' '}
+            <li className='menu-list-item '>Food</li>
+          </NavLink>
+          <NavLink to='contact' className='active' activeClassName='selected'>
+            {' '}
+            <li className='menu-list-item '>Contact</li>
+          </NavLink>
+        </ul>
+      </nav>
     </div>
   );
 };
