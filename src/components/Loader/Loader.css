@@ -1,0 +1,13 @@
+.loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.loader-title {
+  font-size: 3em;
+}
+.loader-icon {
+  font-size: 6em;
+}
