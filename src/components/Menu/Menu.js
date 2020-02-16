@@ -26,10 +26,10 @@ const Menu = () => {
           </NavLink>
           <li className='menu-list-item '>
             <NavLink
-              to='contact'
+              to='about'
               className='not-active'
               activeClassName='selected'>
-              Contact
+              About
             </NavLink>
           </li>
         </ul>

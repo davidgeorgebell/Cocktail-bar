@@ -10,8 +10,9 @@ import DataContextProvider from './contexts/DataContext';
 import HomePage from './pages/HomePage/HomePage';
 import DrinkPage from './pages/DrinkPage/DrinkPage';
 import FoodPage from './pages/FoodPage/FoodPage';
-import ContactPage from './pages/ContactPage/ContactPage';
+
 import Menu from './components/Menu/Menu';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
   return (
@@ -30,8 +31,8 @@ function App() {
               <Route path='/food' exact>
                 <FoodPage />
               </Route>
-              <Route path='/contact' exact>
-                <ContactPage />
+              <Route path='/about' exact>
+                <AboutPage />
               </Route>
               <Redirect to='/' />
             </Switch>
