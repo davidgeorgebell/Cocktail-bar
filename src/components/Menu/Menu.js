@@ -9,25 +9,29 @@ const Menu = () => {
       <nav className='menu-nav'>
         <ul className='menu-list'>
           <li className='menu-list-logo menu-list-item'>
-            {' '}
             <NavLink to='/' exact activeClassName='selected'>
               Gatsby's
             </NavLink>
           </li>
-
           <li className=' menu-list-item'>
-            <NavLink to='/drink' className='active' activeClassName='selected'>
+            <NavLink
+              to='/drink'
+              className='not-active'
+              activeClassName='selected'>
               Drink
             </NavLink>
           </li>
-          <NavLink to='/food' className='active' activeClassName='selected'>
-            {' '}
+          <NavLink to='/food' className='not-active' activeClassName='selected'>
             <li className='menu-list-item '>Food</li>
           </NavLink>
-          <NavLink to='contact' className='active' activeClassName='selected'>
-            {' '}
-            <li className='menu-list-item '>Contact</li>
-          </NavLink>
+          <li className='menu-list-item '>
+            <NavLink
+              to='contact'
+              className='not-active'
+              activeClassName='selected'>
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
