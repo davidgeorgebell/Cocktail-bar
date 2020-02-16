@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 5px;
   margin: 20px 0;
+  margin-bottom: 2em;
 }
 .selected {
   font-weight: 500;

@@ -1,0 +1,5 @@
+/* This adds a gap to all items within the wrapper. */
+.food-page-wrapper {
+  display: grid;
+  grid-gap: 30px;
+}
