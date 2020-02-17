@@ -1,0 +1,24 @@
+.about-page-wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+.about-list {
+  background: var(--tertiary);
+  color: var(--primary);
+  padding: 50px;
+}
+.about-list a {
+  color: var(--primary);
+}
+.about-list h3 {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.about-list li {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
