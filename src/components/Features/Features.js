@@ -10,8 +10,8 @@ const Features = () => {
         <h3 className='feature-title'>Cocktails</h3>
         <p>
           {' '}
-          loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
-          loren ipsum dipsum doo day logic
+          Our Cocktails us only the finest spirits. We have opened a Cocktail
+          Bar for those who don't like Cocktail Bars.
         </p>
         <Link to='/drink'>View Our Drinks Menu</Link>
       </div>
@@ -19,26 +19,11 @@ const Features = () => {
         <h3 className='feature-title'>Food</h3>
         <p>
           {' '}
-          loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
-          loren ipsum dipsum doo day logic
+          Proudly serving dishes from cuisines all over the world. There's
+          something for everyone.
         </p>
         <Link to='/food'>View Our Food Menu</Link>
       </div>
-      {/* <div className='feature-item'>
-        <h3 className='feature-title'>Music</h3>
-        <p>
-          loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
-          loren ipsum dipsum doo day logic
-        </p>
-      </div>
-      <div className='feature-item'>
-        <h3 className='feature-title'>Wine</h3>
-        <p>
-          {' '}
-          loren ipsum dipsum doo day logic loren ipsum dipsum doo day logic
-          loren ipsum dipsum doo day logic
-        </p>
-      </div> */}
     </div>
   );
 };
