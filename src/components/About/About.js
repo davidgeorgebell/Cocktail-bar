@@ -13,7 +13,7 @@ const About = () => {
         <p className='about-description'>
           Join us every Tuesday for club night{' '}
         </p>
-        <p className='about-description'>Find out more about our community</p>
+        <p className='about-description'>Find out more about our community.</p>
         <Link to='/about'>More About Us</Link>
       </div>
     </div>

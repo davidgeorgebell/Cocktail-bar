@@ -10,8 +10,8 @@ const Features = () => {
         <h3 className='feature-title'>Cocktails</h3>
         <p>
           {' '}
-          Our Cocktails us only the finest spirits. We have opened a Cocktail
-          Bar for those who don't like Cocktail Bars.
+          Our Cocktails us the finest spirits. We have opened a Cocktail Bar for
+          those who don't like Cocktail Bars.
         </p>
         <Link to='/drink'>View Our Drinks Menu</Link>
       </div>
