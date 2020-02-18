@@ -11,4 +11,5 @@
 .drink-item-details {
   margin-bottom: 10px;
   font-size: 1em;
+  text-transform: capitalize;
 }
