@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import DataContextProvider from './contexts/DataContext';
-import HomePage from './pages/HomePage/HomePage';
+import HomePage from './pages/Homepage/HomePage';
 import DrinkPage from './pages/DrinkPage/DrinkPage';
 import FoodPage from './pages/FoodPage/FoodPage';
 
